@@ -1,72 +1,71 @@
-# CineScope
+# SUMMITX
 
-CineScope is a premium movie explorer built with HTML5, CSS3, and vanilla JavaScript. It uses the OMDb API with the Fetch API to search by title and render rich movie details in a polished glassmorphism interface.
+SUMMITX is a premium trekking adventure landing page built with HTML5, CSS3, and vanilla JavaScript. It showcases some of the world's most iconic trekking destinations through a modern glassmorphism interface, smooth animations, and immersive mountain-inspired design.
 
 ## Features
 
-- Search movies by title
-- Enter key and button-based search support
-- Dynamic rendering of poster, year, genre, runtime, IMDb rating, director, actors, language, awards, and plot
-- Skeleton loading card and animated loading indicator
-- Error handling for empty input, missing movies, network failures, and invalid API responses
-- Recent searches saved in localStorage
-- Favorites saved in localStorage with remove support
-- Responsive layout for mobile, tablet, laptop, and desktop
-- Smooth fade-ins, hover lift, poster zoom, and scroll reveal animations
+* Fully responsive design for mobile, tablet, laptop, and desktop
+* Premium glassmorphism UI with frosted glass effects
+* Interactive trek cards with expandable hover details
+* Smooth scroll reveal and hover animations
+* Modern typography and luxury travel aesthetics
+* Trek gallery and destination showcase
+* Animated statistics section
+* Testimonials section
+* Call-to-action and contact sections
+
+## Featured Treks
+
+* Everest Base Camp
+* Annapurna Base Camp
+* Annapurna Circuit
+* Manaslu Circuit
+* Kedarkantha
+* Hampta Pass
+* Tungnath & Chandrashila
+* Kashmir Great Lakes
 
 ## Installation
 
 1. Download or clone the project files.
-2. Open [script.js] and replace:
-
-```js
-const API_KEY = "YOUR_OMDB_API_KEY";
-```
-
-with your real OMDb API key.
-
-3. Save the file.
-4. Open [index.html](C:\Users\kruti\Documents\New project\index.html) in your browser.
-
-## API Setup
-
-1. Visit [OMDb API](https://www.omdbapi.com/apikey.aspx).
-2. Request a free or paid API key.
-3. Add the key to `script.js`.
-4. Reload the page and start searching.
+2. Open `index.html` in your preferred browser.
+3. Explore the landing page and interactive trek cards.
 
 ## Project Files
 
-- `index.html` - semantic page structure
-- `style.css` - glassmorphism design system, responsive layout, and animations
-- `script.js` - OMDb fetch logic, rendering, loading states, localStorage management
-- `README.md` - setup and usage guide
+* `index.html` – Website structure and content
+* `style.css` – Styling, glassmorphism effects, responsiveness, and animations
+* `script.js` – Interactive functionality and animations
+* `README.md` – Project documentation
 
 ## Screenshots
 
-Add screenshots here after running the app locally:
+Add screenshots here after running the project locally:
 
-- Hero and search view
-- Movie result card
-- Recent searches and favorites sections
-- Mobile responsive layout
+* Hero Section
+* Trek Showcase Section
+* Gallery Section
+* Mobile Responsive View
 
-Example naming suggestion:
+Example:
 
-- `screenshots/home.png`
-- `screenshots/result.png`
-- `screenshots/mobile.png`
+screenshots/home.png
+
+screenshots/treks.png
+
+screenshots/mobile.png
 
 ## Future Improvements
 
-- Multi-result search grid using the OMDb `s` endpoint
-- Genre filters and sorting options
-- Trailer integration
-- Theme customization
-- Pagination for broader discovery
-- Keyboard shortcuts and accessibility enhancements
+* Trek booking functionality
+* Weather integration
+* Interactive trek maps
+* Search and filtering options
+* User accounts and saved treks
+* Dark/Light mode toggle
 
 ## Notes
 
-- The app is intentionally framework-free and uses only vanilla web technologies.
-- A valid OMDb API key is required for movie search to work.
+The project is intentionally framework-free and built using only HTML, CSS, and JavaScript.
+
+Designed as a premium trekking adventure landing page with a modern user experience and responsive layout.
