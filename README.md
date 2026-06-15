@@ -17,7 +17,7 @@ CineScope is a premium movie explorer built with HTML5, CSS3, and vanilla JavaSc
 ## Installation
 
 1. Download or clone the project files.
-2. Open [script.js](C:\Users\kruti\Documents\New project\script.js) and replace:
+2. Open [script.js] and replace:
 
 ```js
 const API_KEY = "YOUR_OMDB_API_KEY";
